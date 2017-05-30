@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1226</width>
-    <height>521</height>
+    <width>1171</width>
+    <height>589</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>310</x>
+      <x>300</x>
       <y>30</y>
       <width>388</width>
       <height>351</height>
@@ -49,9 +49,9 @@
    <widget class="QPushButton" name="DispImage">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>100</y>
-      <width>171</width>
+      <x>110</x>
+      <y>170</y>
+      <width>161</width>
       <height>51</height>
      </rect>
     </property>
@@ -65,7 +65,7 @@
    <widget class="QGroupBox" name="groupBox2">
     <property name="geometry">
      <rect>
-      <x>760</x>
+      <x>750</x>
       <y>30</y>
       <width>388</width>
       <height>351</height>
@@ -91,11 +91,11 @@
      </property>
     </widget>
    </widget>
-   <widget class="QSlider" name="Zoom1">
+   <widget class="QSlider" name="Zoom">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>460</y>
+      <x>340</x>
+      <y>450</y>
       <width>341</width>
       <height>22</height>
      </rect>
@@ -116,8 +116,8 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>460</y>
+      <x>300</x>
+      <y>450</y>
       <width>31</width>
       <height>16</height>
      </rect>
@@ -126,46 +126,11 @@
      <string>Zoom</string>
     </property>
    </widget>
-   <widget class="QSlider" name="Zoom2">
+   <widget class="QSlider" name="XSlider">
     <property name="geometry">
      <rect>
-      <x>800</x>
-      <y>460</y>
-      <width>341</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="minimum">
-     <number>1</number>
-    </property>
-    <property name="maximum">
-     <number>20</number>
-    </property>
-    <property name="singleStep">
-     <number>1</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>760</x>
-      <y>460</y>
-      <width>31</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Zoom</string>
-    </property>
-   </widget>
-   <widget class="QSlider" name="X1">
-    <property name="geometry">
-     <rect>
-      <x>353</x>
-      <y>390</y>
+      <x>340</x>
+      <y>400</y>
       <width>341</width>
       <height>22</height>
      </rect>
@@ -177,7 +142,7 @@
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QSlider" name="Y1">
+   <widget class="QSlider" name="YSlider">
     <property name="geometry">
      <rect>
       <x>710</x>
@@ -199,49 +164,11 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QSlider" name="Y2">
+   <widget class="QLineEdit" name="Xbox">
     <property name="geometry">
      <rect>
-      <x>1160</x>
-      <y>70</y>
-      <width>22</width>
-      <height>301</height>
-     </rect>
-    </property>
-    <property name="layoutDirection">
-     <enum>Qt::LeftToRight</enum>
-    </property>
-    <property name="maximum">
-     <number>160</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Vertical</enum>
-    </property>
-    <property name="invertedAppearance">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QSlider" name="X2">
-    <property name="geometry">
-     <rect>
-      <x>800</x>
-      <y>390</y>
-      <width>341</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="maximum">
-     <number>184</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="X1box">
-    <property name="geometry">
-     <rect>
-      <x>310</x>
-      <y>390</y>
+      <x>300</x>
+      <y>400</y>
       <width>31</width>
       <height>22</height>
      </rect>
@@ -250,23 +177,10 @@
      <string>0</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="X2box">
+   <widget class="QLineEdit" name="Ybox">
     <property name="geometry">
      <rect>
-      <x>760</x>
-      <y>390</y>
-      <width>31</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>0</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="Y1box">
-    <property name="geometry">
-     <rect>
-      <x>710</x>
+      <x>700</x>
       <y>40</y>
       <width>31</width>
       <height>22</height>
@@ -276,25 +190,12 @@
      <string>0</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="Y2box">
-    <property name="geometry">
-     <rect>
-      <x>1160</x>
-      <y>40</y>
-      <width>31</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>0</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="bitLoad">
+   <widget class="QPushButton" name="BitLoad">
     <property name="geometry">
      <rect>
       <x>30</x>
       <y>30</y>
-      <width>261</width>
+      <width>241</width>
       <height>51</height>
      </rect>
     </property>
@@ -306,8 +207,8 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>110</y>
-      <width>71</width>
+      <y>180</y>
+      <width>61</width>
       <height>31</height>
      </rect>
     </property>
@@ -336,7 +237,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>220</y>
+      <y>290</y>
       <width>181</width>
       <height>31</height>
      </rect>
@@ -354,7 +255,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>270</y>
+      <y>340</y>
       <width>181</width>
       <height>31</height>
      </rect>
@@ -371,9 +272,9 @@
    <widget class="QLineEdit" name="SubChange">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>320</y>
-      <width>51</width>
+      <x>230</x>
+      <y>390</y>
+      <width>41</width>
       <height>31</height>
      </rect>
     </property>
@@ -393,7 +294,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>170</y>
+      <y>240</y>
       <width>191</width>
       <height>31</height>
      </rect>
@@ -410,9 +311,9 @@
    <widget class="QLineEdit" name="Masks">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>220</y>
-      <width>51</width>
+      <x>230</x>
+      <y>290</y>
+      <width>41</width>
       <height>31</height>
      </rect>
     </property>
@@ -431,9 +332,9 @@
    <widget class="QLineEdit" name="MaskChanges">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>270</y>
-      <width>51</width>
+      <x>230</x>
+      <y>340</y>
+      <width>41</width>
       <height>31</height>
      </rect>
     </property>
@@ -452,9 +353,9 @@
    <widget class="QLineEdit" name="Exposure">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>170</y>
-      <width>51</width>
+      <x>230</x>
+      <y>240</y>
+      <width>41</width>
       <height>31</height>
      </rect>
     </property>
@@ -474,7 +375,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>320</y>
+      <y>390</y>
       <width>191</width>
       <height>31</height>
      </rect>
@@ -491,8 +392,8 @@
    <widget class="QPushButton" name="SaveImages">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>370</y>
+      <x>160</x>
+      <y>440</y>
       <width>111</width>
       <height>51</height>
      </rect>
@@ -510,7 +411,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>360</y>
+      <y>430</y>
       <width>101</width>
       <height>61</height>
      </rect>
@@ -525,9 +426,9 @@
    <widget class="QLineEdit" name="NumImages">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>380</y>
-      <width>51</width>
+      <x>100</x>
+      <y>450</y>
+      <width>41</width>
       <height>31</height>
      </rect>
     </property>
@@ -542,8 +443,8 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>440</y>
-      <width>261</width>
+      <y>510</y>
+      <width>241</width>
       <height>51</height>
      </rect>
     </property>
@@ -559,8 +460,130 @@
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QPushButton" name="PattLoad">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Pattern File</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Reset">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>510</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reset View</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>400</y>
+      <width>381</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Image Correction (CEP and TOF mode only)</string>
+    </property>
+    <widget class="QPushButton" name="CalibBlack">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Capture Black</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ApplyImg">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>30</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Apply Correction</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CalibBG">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Capture Background Light</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="EqualizeImg">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>100</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Equalize Image</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <zorder>groupBox_2</zorder>
+   <zorder>groupBox</zorder>
+   <zorder>DispImage</zorder>
+   <zorder>groupBox2</zorder>
+   <zorder>Zoom</zorder>
+   <zorder>label</zorder>
+   <zorder>XSlider</zorder>
+   <zorder>YSlider</zorder>
+   <zorder>Xbox</zorder>
+   <zorder>Ybox</zorder>
+   <zorder>BitLoad</zorder>
+   <zorder>DispType</zorder>
+   <zorder>maskslabel</zorder>
+   <zorder>maskschangeslabel</zorder>
+   <zorder>SubChange</zorder>
+   <zorder>exposurelabel</zorder>
+   <zorder>Masks</zorder>
+   <zorder>MaskChanges</zorder>
+   <zorder>Exposure</zorder>
+   <zorder>maskschangeslabel_2</zorder>
+   <zorder>SaveImages</zorder>
+   <zorder>label_3</zorder>
+   <zorder>NumImages</zorder>
+   <zorder>RecVideo</zorder>
+   <zorder>PattLoad</zorder>
+   <zorder>Reset</zorder>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>
